@@ -24,6 +24,16 @@ namespace Exer2
                 else
                     Console.WriteLine("\nArray should have minimum 1 and maximum 20 elements.\n");
             }
+            Console.WriteLine("----------------------");
+            Console.WriteLine(" Enter array elements ");
+            Console.WriteLine("----------------------");
+            for (i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                Rera[i] = Int32.Parse(s1);
+            }
+
         }
         static void Main(string[] args)
         {
