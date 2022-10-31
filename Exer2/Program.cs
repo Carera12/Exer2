@@ -78,7 +78,23 @@ namespace Exer2
                 Console.WriteLine("Rera[SC]");
             }
         }
-        
+        public void SelectionSort()
+        {
+            for (int i= 0; i < n - 1; i++)
+            {
+                int min = i;
+                for (int SC = i + 1; SC < n; SC++)
+                {
+                    if (Rera[SC] <= Rera[min])
+                    {
+                        int temp;
+                        temp = Rera[SC];
+                        Rera[SC] = Rera[min];
+                        Rera[min] = temp;
+                    }
+                }
+            }
+        }
         static void Main(string[] args)
         {
             Program myList = new Program();
