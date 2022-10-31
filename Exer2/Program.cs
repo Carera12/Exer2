@@ -70,6 +70,8 @@ namespace Exer2
         static void Main(string[] args)
         {
             Program myList = new Program();
+            myList.input();
+
         }
     }
 }
