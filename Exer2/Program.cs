@@ -84,6 +84,7 @@ namespace Exer2
             Program myList = new Program();
             myList.input();
             myList.BinarySearch();
+            myList.display();
         }
     }
 }
