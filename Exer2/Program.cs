@@ -101,6 +101,7 @@ namespace Exer2
             myList.input();
             myList.BinarySearch();
             myList.display();
+            myList.SelectionSort();
         }
     }
 }
