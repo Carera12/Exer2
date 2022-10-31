@@ -43,19 +43,19 @@ namespace Exer2
                 Console.Write("\nEnter Element want you to search: ");
                 int item = Convert.ToInt32(Console.ReadLine());
 
-                int lowerbound = 0;
-                int upperbound = n - 1;
+                int low = 0;
+                int high = n - 1;
 
-                int mid = (lowerbound + upperbound) / 2;
+                int mid = (low + high) / 2;
                 int ctr = 1;
 
-                while ((item != Rera[mid]) && (lowerbound < upperbound))
+                while ((item != Rera[mid]) && (low < high))
                 {
                     if (item > Rera[mid])
-                        lowerbound = mid + 1;
+                        low = mid + 1;
                     else
-                        upperbound = mid - 1;
-                    mid = (lowerbound + upperbound) / 2;
+                        high = mid - 1;
+                    mid = (low + high) / 2;
                     ctr++;
                 }
                 if (item == Rera[mid])
