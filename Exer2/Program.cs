@@ -67,6 +67,18 @@ namespace Exer2
                 ch = char.Parse(Console.ReadLine());
             } while ((ch == 'y') || (ch == 'Y'));
         }
+        public void display()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("----------------------");
+            Console.WriteLine("Shorted array elements");
+            Console.WriteLine("----------------------");
+            for (int SC = 0; SC < n; SC++)
+            {
+                Console.WriteLine("Rera[SC]");
+            }
+        }
+        
         static void Main(string[] args)
         {
             Program myList = new Program();
