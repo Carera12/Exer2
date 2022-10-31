@@ -62,7 +62,7 @@ namespace Exer2
                     Console.WriteLine("\n" + item.ToString() + " found at position " + (mid + 1).ToString());
                 else
                     Console.WriteLine("\n" + item.ToString() + " not found in the array\n");
-                Console.WriteLine("\nNumber of coparison" + ctr);
+                Console.WriteLine("\nNumber of coparison: " + ctr);
                 Console.WriteLine("\nContinue search (y/n): ");
                 ch = char.Parse(Console.ReadLine());
             } while ((ch == 'y') || (ch == 'Y'));
@@ -71,7 +71,7 @@ namespace Exer2
         {
             Program myList = new Program();
             myList.input();
-
+            myList.BinarySearch();
         }
     }
 }
