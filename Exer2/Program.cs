@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Exer2
 {
-    internal class Program
+    class Program
     {
+        int[] Rera = new int[83]
         static void Main(string[] args)
         {
         }
