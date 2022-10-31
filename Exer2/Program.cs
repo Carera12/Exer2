@@ -8,7 +8,9 @@ namespace Exer2
 {
     class Program
     {
-        int[] Rera = new int[83]
+        int[] Rera = new int[83];
+        int n;
+        int i;
         static void Main(string[] args)
         {
         }
